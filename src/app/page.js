@@ -11,6 +11,7 @@ const videos = [
 ]
 
 const images = [
+  "/images/Interior_1.png",
   "/images/003.png",
   "/images/004.png",
   "/images/005.png",
@@ -20,7 +21,6 @@ const images = [
   "/images/006.png",
   "/images/007.png",
   "/images/010.png",
-  "/images/Interior_1.png",
   "/images/Trashbag.png",
 ]
 
@@ -45,52 +45,59 @@ export default function Home() {
   }
 
   return (
-    <div className='bg-neutral-950 pt-2'>
+    <div className="bg-neutral-950 pt-2">
       {/* Hero Section */}
-      <section className="bg-gray-900 rounded-md px-5 text-white pb-10 pt-5 max-w-2xl mx-auto">
-        <div className="container mx-auto">
+      <section className="bg-gray-900 rounded-md text-white pb-10 pt-5 max-w-2xl mx-auto">
+        <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4">Jared Robert Hooker</h1>
           <p className="text-lg mb-8">
-            Welcome to my collection of 3D models and video animations created with Blender and Unreal Engine.
+            Welcome to my collection of 3D models and video animations created with Blender and Unreal Engine 5.
           </p>
 
           <Link legacyBehavior href="https://calendly.com/jaredhooker/30min">
-            <a className="bg-blue-500 hover-bg-blue-700 text-white font-bold py-2 px-4 rounded">Shedule Interview</a>
+            <a className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Schedule Interview</a>
           </Link>
-
         </div>
       </section>
 
       {/* Image Gallery Section */}
-      <section className="pt-10 px-2">
-        <div className="container mx-auto">
-          <div className="text-center flex flex-row max-w-2xl mx-auto">
-            <button className="bg-blue-500 w-full hover-bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2" onClick={previousImage}>
+      <section className="py-5 px-2 bg-gray-800 text-white rounded-t max-w-2xl mx-auto">
+        <div className="container mx-auto text-center">
+          <h2 className="text-2xl font-bold mb-4">Image Gallery</h2>
+          <div className="flex justify-center">
+            <button className="bg-blue-500 w-full hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2" onClick={previousImage}>
               Previous
             </button>
-            <button className="bg-blue-500 w-full hover-bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={nextImage}>
+            <button className="bg-blue-500 w-full hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={nextImage}>
               Next
             </button>
           </div>
           <div className="my-4">
-            <Image width={1920} height={1080} src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} className="w-full max-w-2xl mx-auto rounded-md" />
+            <Image
+              width={1920}
+              height={1080}
+              src={images[currentImageIndex]}
+              alt={`Image ${currentImageIndex + 1}`}
+              className="w-full max-w-2xl mx-auto rounded-md"
+            />
           </div>
         </div>
       </section>
 
       {/* Video Gallery Section */}
-      <section className="py-10 px-2">
-        <div className="container mx-auto">
-          <div className="text-center flex flex-row max-w-2xl mx-auto">
-            <button className="bg-blue-500 hover-bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2 w-full" onClick={previousVideo}>
+      <section className="py-5 px-2 bg-gray-800 text-white rounded-b max-w-2xl mx-auto">
+        <div className="container mx-auto text-center">
+          <h2 className="text-2xl font-bold mb-4">Video Gallery</h2>
+          <div className="flex justify-center">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2 w-full" onClick={previousVideo}>
               Previous
             </button>
-            <button className="bg-blue-500 hover-bg-blue-700 text-white font-bold py-2 px-4 rounded w-full" onClick={nextVideo}>
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full" onClick={nextVideo}>
               Next
             </button>
           </div>
           <div className="my-4">
-            <video key={currentVideoIndex} preload='metadata' width={1920} height={1080} controls className="rounded-md w-full max-w-2xl mx-auto">
+            <video key={currentVideoIndex} preload="metadata" width={1920} height={1080} controls className="rounded-md w-full max-w-2xl mx-auto">
               <source src={videos[currentVideoIndex]} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
