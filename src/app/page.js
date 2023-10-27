@@ -20,6 +20,7 @@ const images = [
   "/images/006.png",
   "/images/007.png",
   "/images/010.png",
+  "/images/Interior_1.png",
   "/images/Trashbag.png",
 ]
 
