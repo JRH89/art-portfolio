@@ -11,11 +11,12 @@ const videos = [
 ]
 
 const games = [
-  "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/Unreal%20Engine%205%202023.10.16%20-%2016.48.37.01.mp4?alt=media&token=235516a3-540e-4ad0-a7af-df0227e4d2cb"
+  "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fgames_1.mp4?alt=media&token=11c27fdf-bc40-43d6-8ea0-584c4f62bf3b"
 ]
 
 const images = [
   "/images/Interior_1.png",
+  "/images/Interior_2.png",
   "/images/003.png",
   "/images/004.png",
   "/images/005.png",
