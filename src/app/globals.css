@@ -2,26 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+:root
+{
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
+@media (prefers-color-scheme: dark)
+{
+  :root
+  {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
 }
 
-body {
+body
+{
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+
+.hover-link
+{
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.hover-link .word
+{
+  transition: color 0.3s;
+  /* Set the desired transition duration (e.g., 200ms) */
+}
+
+.hover-link:hover .word:nth-child(1)
+{
+  color: #60A5FA;
+  /* Change the color for the first word on hover */
+}
+
+.hover-link:hover .word:nth-child(2)
+{
+  color: #22C55E;
+  /* Change the color for the second word on hover */
+}
+
+.hover-link:hover .word:nth-child(3)
+{
+  color: #EF4444;
+  /* Change the color for the third word on hover */
 }
