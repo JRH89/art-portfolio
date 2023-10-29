@@ -1,4 +1,5 @@
 'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
@@ -32,10 +33,14 @@ const images = [
 ]
 
 export default function Home() {
+
+  // state variables
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0)
   const [currentGameIndex, setCurrentGameIndex] = useState(0)
 
+
+  // Image button handlers
   const previousImage = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length)
   }
@@ -44,6 +49,8 @@ export default function Home() {
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length)
   }
 
+
+  // Video button handlers
   const previousVideo = () => {
     setCurrentVideoIndex((prevIndex) => (prevIndex - 1 + videos.length) % videos.length)
   }
@@ -52,6 +59,8 @@ export default function Home() {
     setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % videos.length)
   }
 
+
+  // Game button handlers
   const previousGame = () => {
     setCurrentGameIndex((prevIndex) => (prevIndex - 1 + games.length) % games.length)
   }
@@ -62,6 +71,7 @@ export default function Home() {
 
   return (
     <div className="bg-neutral-950 pt-2">
+
       {/* Hero Section */}
       <section className="bg-gray-900 rounded-md text-white pb-5 pt-3 max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
@@ -69,8 +79,6 @@ export default function Home() {
           <p className="text-md mb-8">
             I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, and captivating animated videos. Explore my portfolio to witness the seamless fusion of technology and creativity.
           </p>
-
-
           <Link legacyBehavior href="https://calendly.com/jaredhooker/30min">
             <a className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Schedule Interview</a>
           </Link>
@@ -122,6 +130,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       {/* Game Gallery Section */}
       <section className="py-10 px-2 bg-gray-800 text-white rounded-b max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
@@ -142,6 +151,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Footer Section */}
       <footer className='py-2'>
         <div className="bg-neutral-950 text-center duration-200">
           <a href="https://www.hookerhillstudios.com" class="hover-link transition duration-300">
@@ -151,6 +162,7 @@ export default function Home() {
           </a>
         </div>
       </footer>
+
     </div>
   )
 }
