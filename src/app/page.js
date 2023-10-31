@@ -130,7 +130,7 @@ export default function Home() {
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               download
             >
-              Download Resume
+              Resume
             </a>
           </div>
         </div>
@@ -165,7 +165,7 @@ export default function Home() {
       {/* Video Gallery Section */}
       <section className="py-10 px-2 bg-gray-800 text-white border-b-2 border-neutral-950 max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-4">Videos</h2>
+          <h2 className="text-2xl font-bold mb-4">Animations</h2>
           <div className="flex justify-center">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2 w-full" onClick={previousVideo}>
               Previous
