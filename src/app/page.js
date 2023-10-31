@@ -74,7 +74,7 @@ export default function Home() {
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4">Jared Robert Hooker</h1>
           <p className="text-md mb-8">
-            I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, and captivating animated videos. Explore my portfolio to witness the seamless fusion of technology and creativity.
+            I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, and captivating animated videos.
           </p>
           <Link legacyBehavior href="https://calendly.com/jaredhooker/30min">
             <a className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Schedule Interview</a>
