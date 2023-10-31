@@ -78,9 +78,18 @@ export default function Home() {
           <p className="text-md mb-8 mx-4">
             I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, and captivating animated videos.
           </p>
-          <Link legacyBehavior href="https://calendly.com/jaredhooker/30min">
-            <a className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Schedule Interview</a>
-          </Link>
+          <div className='flex flex-col gap-4 max-w-2xl px-2'>
+            <Link legacyBehavior href="https://calendly.com/jaredhooker/30min">
+              <a className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Schedule Interview</a>
+            </Link>
+            <a
+              href="/Game_Resume.pdf" // Replace with the actual URL of your resume PDF
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              download
+            >
+              Download Resume
+            </a>
+          </div>
         </div>
       </section>
 
