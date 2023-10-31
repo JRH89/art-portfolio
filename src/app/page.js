@@ -74,10 +74,53 @@ export default function Home() {
       {/* Hero Section */}
       <section className="bg-gray-900 rounded-md text-white pb-5 pt-3 max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
-          <h1 className="text-4xl font-bold mb-4">Jared Robert Hooker</h1>
-          <p className="text-md mb-8 mx-4">
-            I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, and captivating animated videos.
+          <h1 className="text-4xl font-bold mb-3">Jared Robert Hooker</h1>
+          <Image
+            className='mx-auto rounded-lg mb-4 border border-gray-400'
+            width={200}
+            height={200}
+            src={'/profilepic.png'}
+          />
+          <p className="text-md mb-4 mx-4">
+            I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, captivating animated videos, and games.
           </p>
+          <div>
+
+          </div>
+          <div className='border mx-5 border-gray-400 rounded-lg mb-4'>
+            <table class="w-full mt-2 text-sm mx-auto mb-4 text-center">
+              <tr>
+                <td class="w-1/3 p-2">3D Modeling</td>
+                <td class="w-1/3 p-2">Material Creation</td>
+                <td class="w-1/3 p-2">Animation</td>
+              </tr>
+              <tr>
+                <td class="w-1/3 p-2">.mp4 Encoding</td>
+                <td class="w-1/3 p-2">Texturing</td>
+                <td class="w-1/3 p-2">Level Design</td>
+              </tr>
+              <tr>
+                <td class="w-1/3 p-2">Lighting and Rendering</td>
+                <td class="w-1/3 p-2">Particle Systems</td>
+                <td class="w-1/3 p-2">Shading and Texturing</td>
+              </tr>
+              <tr>
+                <td class="w-1/3 p-2">Game Asset Optimization</td>
+                <td class="w-1/3 p-2">Audio Integration</td>
+                <td class="w-1/3 p-2">User Interface (UI) Design</td>
+              </tr>
+              <tr>
+
+                <td class="w-1/3 p-2">Version Control (e.g., Git) for Collaborative Work</td>
+                <td class="w-1/3 p-2">Post-Production and Video Editing</td>
+                <td class="w-1/3 p-2">AI Programming for NPCs and Game Mechanics</td>
+              </tr>
+
+            </table>
+          </div>
+
+
+
           <div className='flex flex-col gap-4 max-w-2xl px-2'>
             <Link legacyBehavior href="https://calendly.com/jaredhooker/30min">
               <a className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Schedule Interview</a>
@@ -108,6 +151,7 @@ export default function Home() {
           </div>
           <div className="my-4">
             <Image
+              preload="true"
               width={1920}
               height={1080}
               src={images[currentImageIndex]}
