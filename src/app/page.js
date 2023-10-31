@@ -75,7 +75,7 @@ export default function Home() {
       <section className="bg-gray-900 rounded-md text-white pb-5 pt-3 max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4">Jared Robert Hooker</h1>
-          <p className="text-md mb-8">
+          <p className="text-md mb-8 mx-4">
             I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, and captivating animated videos.
           </p>
           <Link legacyBehavior href="https://calendly.com/jaredhooker/30min">
