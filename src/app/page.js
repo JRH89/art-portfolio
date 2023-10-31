@@ -76,6 +76,7 @@ export default function Home() {
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold mb-3">Jared Robert Hooker</h1>
           <Image
+            alt='profile-pic'
             className='mx-auto rounded-lg mb-4 border border-gray-400'
             width={200}
             height={200}
