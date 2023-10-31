@@ -17,19 +17,16 @@ const games = [
 
 const images = [
   "/images/Interior_1.png",
-  "/images/Interior_2.png",
   "/images/Interior_3.png",
   "/images/Interior_4.png",
   "/images/003.png",
   "/images/004.png",
-  "/images/005.png",
   "/images/008.png",
   "/images/009.png",
   "/images/001.png",
   "/images/006.png",
   "/images/007.png",
   "/images/010.png",
-  "/images/Trashbag.png",
 ]
 
 export default function Home() {
