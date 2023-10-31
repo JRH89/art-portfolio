@@ -12,7 +12,9 @@ const videos = [
 ]
 
 const games = [
-  "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fgames_1.mp4?alt=media&token=11c27fdf-bc40-43d6-8ea0-584c4f62bf3b"
+  "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fgames_1.mp4?alt=media&token=11c27fdf-bc40-43d6-8ea0-584c4f62bf3b",
+  "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Flinkedinpost.mp4?alt=media&token=9db79c32-9b36-491b-855c-07928c1c098e",
+  "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FFireball%20Attack%20and%20Random%20Loot%20Drop.mp4?alt=media&token=ade637ca-7866-4f19-a9b5-3d78b8cad85b"
 ]
 
 const images = [
