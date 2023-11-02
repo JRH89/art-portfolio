@@ -131,7 +131,7 @@ export default function Home() {
             height={200}
             src={"/profilepic.png"}
           />
-          <p className="text-md mb-4 mx-4 text-justify">
+          <p className="text-md mb-4 mx-5 text-justify">
             I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, captivating animated videos, and entertaining video games.
           </p>
           <div>
@@ -165,7 +165,7 @@ export default function Home() {
               </tr>
             </table>
           </div>
-          <div className="flex flex-col gap-4 max-w-2xl px-2">
+          <div className="flex flex-col gap-4 max-w-2xl px-5">
             <Link legacyBehavior href="https://calendly.com/jaredhooker/30min">
               <a className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Schedule Interview</a>
             </Link>
