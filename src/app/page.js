@@ -84,7 +84,7 @@ const games = [
     description: "Fireball attack particle system and random loot drop from enemy. Unreal Engine 5.",
   },
 {
-url:"https://youtu.be/eQgwyk0FoWI?si=1SMzyvFxRhb24Jtk",
+url:"https://www.youtube.com/embed/eQgwyk0FoWI?si=-82UBp6X8D5N0q2E",
 description:"Dynamic weather system featuring rain storms, snow storms, fog, and sfx. Created with Unreal Engine 5.",
 },
 ]
