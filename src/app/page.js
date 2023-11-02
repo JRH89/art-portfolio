@@ -123,7 +123,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="bg-gray-900 rounded-md text-white pb-5 pt-3 max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
-          <h1 className="text-4xl font-bold mb-3">Jared Robert Hooker</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold mb-3">Jared Robert Hooker</h1>
           <Image
             alt="profile-pic"
             className="mx-auto rounded-lg mb-4 border border-gray-400"
@@ -131,10 +131,11 @@ export default function Home() {
             height={200}
             src={"/profilepic.png"}
           />
-          <p className="text-md mb-4 mx-4">
-            I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, captivating animated videos, and games.
+          <p className="text-md mb-4 mx-4 text-justify font-semibold">
+            I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, captivating animated videos, and entertaining video games.
           </p>
-          <div></div>
+          <div>
+</div>
           <div className="border mx-5 border-gray-400 rounded-lg mb-4">
             <table className="w-full mt-2 text-sm mx-auto mb-4 text-center">
               <tr>
