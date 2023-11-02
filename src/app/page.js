@@ -123,10 +123,10 @@ export default function Home() {
       {/* Hero Section */}
       <section className="bg-gray-900 rounded-md text-white pb-5 pt-3 max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
-          <h1 className="text-4xl font-bold mb-3">Jared Robert Hooker</h1>
+          <h1 className="text-4xl font-bold mb-5">Jared Robert Hooker</h1>
           <Image
             alt="profile-pic"
-            className="mx-auto rounded-lg mb-4 border border-gray-400"
+            className="mx-auto rounded-lg mb-5 border border-gray-400"
             width={200}
             height={200}
             src={"/profilepic.png"}
@@ -137,7 +137,7 @@ export default function Home() {
           <div>
 </div>
           <div className="border mx-5 border-gray-400 rounded-lg mb-4">
-            <table className="w-full mt-2 text-sm mx-auto mb-4 text-center">
+            <table className="w-full mt-2 text-sm mx-auto mb-5 text-center">
               <tr>
                 <td class="w-1/3 p-2">3D Modeling</td>
                 <td class="w-1/3 p-2">Material Creation</td>
