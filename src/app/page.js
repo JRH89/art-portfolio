@@ -7,15 +7,15 @@ import { useState } from 'react'
 const images = [
   {
     src: "/images/Interior_8.png",
-    description: "Rendered with Blender",
+    description: "Created with Blender",
   },
   {
     src: "/images/Interior_1.png",
-    description: "Rendered with Blender",
+    description: "Created with Blender",
   },
   {
     src: "/images/Interior_4.png",
-    description: "Rendered with Blender",
+    description: "Created with Blender",
   },
   {
     src: "/images/003.png",
@@ -81,7 +81,7 @@ const games = [
   },
   {
     url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FFireball%20Attack%20and%20Random%20Loot%20Drop.mp4?alt=media&token=ade637ca-7866-4f19-a9b5-3d78b8cad85b",
-    description: "Fireball attack particle system and random loot drop. Unreal Engine 5.",
+    description: "Fireball attack particle system and random loot drop from enemy. Unreal Engine 5.",
   },
 ]
 
