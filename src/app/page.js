@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 const images = [
   {
-    src: "/images/Interior_8.png",
+    src: "/images/10.png",
     description: "Created with Blender",
   },
   {
@@ -53,9 +53,14 @@ const images = [
 
 const videos = [
   {
+    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2F11-14_2..mp4?alt=media&token=6c62916f-7c3f-4d9c-b920-937882ef3e57",
+    description: "Created with Blender, Unreal Engine, and ffmpeg",
+  },
+  {
     url: "https://firebasestorage.googleapis.com/v0/b/builders-land.appspot.com/o/videos%2F10-24_3.mp4?alt=media&token=baeb9dbf-8849-4f53-8365-cd3f94fd74f4",
     description: "Created with Blender, Unreal Engine, and ffmpeg",
   },
+
   {
     url: "https://firebasestorage.googleapis.com/v0/b/builders-land.appspot.com/o/videos%2F10-7_3_HD_3.mp4?alt=media&token=dd5f88d1-a82f-4e2d-a5ee-e70347247d7e",
     description: "Created with Blender, Unreal Engine, and ffmpeg",
@@ -72,8 +77,8 @@ const videos = [
 
 const games = [
   {
-    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fgames_1.mp4?alt=media&token=11c27fdf-bc40-43d6-8ea0-584c4f62bf3b",
-    description: "Wall climb and ledge mantle mechanic. Unreal Engine 5.",
+    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2F1_3.mp4?alt=media&token=260d24fc-04fb-48ad-977e-8f74f9fa44d6",
+    description: "Wall climb, ledge mantle, random chest loot, environmental puzzles. Unreal Engine 5.",
   },
   {
     url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Flinkedinpost.mp4?alt=media&token=9db79c32-9b36-491b-855c-07928c1c098e",
@@ -119,7 +124,7 @@ export default function Home() {
   }
 
   return (
-    <div className="bg-neutral-950 pt-2">
+    <div className="bg-neutral-950">
       {/* Hero Section */}
       <section className="bg-gray-900 rounded-md text-white pb-5 pt-3 max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
@@ -132,7 +137,7 @@ export default function Home() {
             src={"/profilepic.png"}
           />
           <p className="text-md mb-4 mx-4">
-            I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, captivating animated videos, and games.
+            I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, captivating animated videos, and entertaining games.
           </p>
           <div></div>
           <div className="border mx-5 border-gray-400 rounded-lg mb-4">
@@ -143,7 +148,7 @@ export default function Home() {
                 <td class="w-1/3 p-2">Animation</td>
               </tr>
               <tr>
-                <td class="w-1/3 p-2">Programming / Mechanics</td>
+                <td class="w-1/3 p-2">Programming</td>
                 <td class="w-1/3 p-2">Texturing</td>
                 <td class="w-1/3 p-2">Level Design</td>
               </tr>
@@ -159,7 +164,7 @@ export default function Home() {
               </tr>
               <tr>
                 <td class="w-1/3 p-2">Version Control (GIT)</td>
-                <td class="w-1/3 p-2"> </td>
+                <td class="w-1/3 p-2">Mechanics</td>
                 <td class="w-1/3 p-2">Video Encoding / Editing</td>
               </tr>
             </table>
