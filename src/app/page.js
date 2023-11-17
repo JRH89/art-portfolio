@@ -14,15 +14,11 @@ const images = [
     description: "Created with Blender",
   },
   {
-    src: "/images/Interior_4.png",
-    description: "Created with Blender",
-  },
-  {
     src: "/images/003.png",
     description: "Created with Blender and Unreal Engine",
   },
   {
-    src: "/images/004.png",
+    src: "/images/KW.png",
     description: "Created with Blender and Unreal Engine",
   },
   {
@@ -60,7 +56,6 @@ const videos = [
     url: "https://firebasestorage.googleapis.com/v0/b/builders-land.appspot.com/o/videos%2F10-24_3.mp4?alt=media&token=baeb9dbf-8849-4f53-8365-cd3f94fd74f4",
     description: "Created with Blender, Unreal Engine, and ffmpeg",
   },
-
   {
     url: "https://firebasestorage.googleapis.com/v0/b/builders-land.appspot.com/o/videos%2F10-7_3_HD_3.mp4?alt=media&token=dd5f88d1-a82f-4e2d-a5ee-e70347247d7e",
     description: "Created with Blender, Unreal Engine, and ffmpeg",
@@ -128,11 +123,11 @@ export default function Home() {
   }
 
   return (
-    <div className="bg-neutral-950">
+    <div className="bg-neutral-950 m-1">
       {/* Hero Section */}
-      <section className="bg-gray-900 rounded-md text-white pb-5 pt-3 max-w-2xl mx-auto">
+      <section className="bg-gray-800 rounded-md p-1 text-white pb-5 pt-3 max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
-          <h1 className="text-4xl font-bold mb-5">Jared Robert Hooker</h1>
+          <h1 className="text-4xl font-bold mb-5">Jared Hooker</h1>
           <Image
             alt="profile-pic"
             className="mx-auto rounded-lg mb-5 border border-gray-400"
@@ -140,12 +135,12 @@ export default function Home() {
             height={200}
             src={"/profilepic.png"}
           />
-          <p className="text-md mb-4 mx-5 text-justify">
-            I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, captivating animated videos, and entertaining games.
+          <p className="text-md mb-4 mx-3 text-justify">
+            I specialize in utilizing Blender and Unreal Engine to create outstanding 3D models, immersive environments, captivating animated videos, and entertaining games.
           </p>
           <div>
           </div>
-          <div className="border mx-5 border-gray-400 rounded-lg mb-4">
+          <div className="border mx-3 border-gray-400 rounded-lg mb-4">
             <table className="w-full mt-2 text-sm mx-auto mb-5 text-center">
               <tr>
                 <td class="w-1/3 p-2">3D Modeling</td>
@@ -174,11 +169,11 @@ export default function Home() {
               </tr>
             </table>
           </div>
-          <div className="flex flex-col gap-4 max-w-2xl px-5">
+          <div className="flex flex-col gap-4 max-w-2xl px-3">
             <Link legacyBehavior href="https://calendly.com/jaredhooker/30min">
-              <a className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Schedule Interview</a>
+              <a className="bg-cyan-800 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded">Schedule Interview</a>
             </Link>
-            <a href="/Game_Resume.pdf" className="bg-blue-500 hover-bg-blue-700 text-white font-bold py-2 px-4 rounded" download>
+            <a href="/Game_Resume.pdf" className="bg-cyan-800 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded" download>
               Resume
             </a>
           </div>
@@ -188,18 +183,19 @@ export default function Home() {
       {/* Image Gallery Section */}
       <section className="py-5 px-2 border-b-2 mt-2 border-neutral-950 bg-gray-800 text-white rounded-t max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-4">Images</h2>
+          <h2 className="text-2xl font-bold mb-4 underline">Images</h2>
           <div className="flex justify-center mb-5">
-            <button className="bg-blue-500 w-full hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2" onClick={previousImage}>
+            <button className="bg-cyan-800 w-full hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded mr-2" onClick={previousImage}>
               Previous
             </button>
-            <button className="bg-blue-500 w-full hover-bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={nextImage}>
+            <button className="bg-cyan-800 w-full hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded" onClick={nextImage}>
               Next
             </button>
           </div>
           <div className="">
             <Image
               preload="true"
+              quality={100}
               width={1920}
               height={1080}
               src={images[currentImageIndex].src}
@@ -214,12 +210,12 @@ export default function Home() {
       {/* Video Gallery Section */}
       <section className="py-10 px-2 bg-gray-800 text-white border-b-2 border-neutral-950 max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-4">Animations</h2>
+          <h2 className="text-2xl font-bold mb-4 underline">Animations</h2>
           <div className="flex justify-center">
-            <button className="bg-blue-500 hover-bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2 w-full" onClick={previousVideo}>
+            <button className="bg-cyan-800 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded mr-2 w-full" onClick={previousVideo}>
               Previous
             </button>
-            <button className="bg-blue-500 hover-bg-blue-700 text-white font-bold py-2 px-4 rounded w-full" onClick={nextVideo}>
+            <button className="bg-cyan-800 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded w-full" onClick={nextVideo}>
               Next
             </button>
           </div>
@@ -236,12 +232,12 @@ export default function Home() {
       {/* Game Gallery Section */}
       <section className="py-10 px-2 bg-gray-800 text-white rounded-b max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-4">Games</h2>
+          <h2 className="text-2xl font-bold mb-4 underline">Games</h2>
           <div className="flex justify-center">
-            <button className="bg-blue-500 hover-bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2 w-full" onClick={previousGame}>
+            <button className="bg-cyan-800 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded mr-2 w-full" onClick={previousGame}>
               Previous
             </button>
-            <button className="bg-blue-500 hover-bg-blue-700 text-white font-bold py-2 px-4 rounded w-full" onClick={nextGame}>
+            <button className="bg-cyan-800 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded w-full" onClick={nextGame}>
               Next
             </button>
           </div>
