@@ -88,6 +88,10 @@ const games = [
     url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FFireball%20Attack%20and%20Random%20Loot%20Drop.mp4?alt=media&token=ade637ca-7866-4f19-a9b5-3d78b8cad85b",
     description: "Fireball attack particle system and random loot drop from enemy. Unreal Engine 5.",
   },
+  {
+    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FWeather%20system%20progress.mp4?alt=media&token=a8db830f-0a55-4215-9422-b5d2b7b76773",
+    description: "Dynamic weather system featuring rain storms, snow storms, fog, and sfx. Created with Unreal Engine 5.",
+  },
 ]
 
 export default function Home() {
@@ -128,20 +132,21 @@ export default function Home() {
       {/* Hero Section */}
       <section className="bg-gray-900 rounded-md text-white pb-5 pt-3 max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
-          <h1 className="text-4xl font-bold mb-3">Jared Robert Hooker</h1>
+          <h1 className="text-4xl font-bold mb-5">Jared Robert Hooker</h1>
           <Image
             alt="profile-pic"
-            className="mx-auto rounded-lg mb-4 border border-gray-400"
+            className="mx-auto rounded-lg mb-5 border border-gray-400"
             width={200}
             height={200}
             src={"/profilepic.png"}
           />
-          <p className="text-md mb-4 mx-4">
-            I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, captivating animated videos, and entertaining games.
+          <p className="text-md mb-4 mx-5 text-justify">
+            I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, captivating animated videos, and entertaining video entertaining games.
           </p>
-          <div></div>
+          <div>
+          </div>
           <div className="border mx-5 border-gray-400 rounded-lg mb-4">
-            <table className="w-full mt-2 text-sm mx-auto mb-4 text-center">
+            <table className="w-full mt-2 text-sm mx-auto mb-5 text-center">
               <tr>
                 <td class="w-1/3 p-2">3D Modeling</td>
                 <td class="w-1/3 p-2">Material Creation</td>
@@ -169,7 +174,7 @@ export default function Home() {
               </tr>
             </table>
           </div>
-          <div className="flex flex-col gap-4 max-w-2xl px-2">
+          <div className="flex flex-col gap-4 max-w-2xl px-5">
             <Link legacyBehavior href="https://calendly.com/jaredhooker/30min">
               <a className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Schedule Interview</a>
             </Link>
