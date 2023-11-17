@@ -141,7 +141,7 @@ export default function Home() {
             src={"/profilepic.png"}
           />
           <p className="text-md mb-4 mx-5 text-justify">
-            I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, captivating animated videos, and entertaining video entertaining games.
+            I specialize in using Blender and Unreal Engine to create outstanding 3D models, immersive environments, captivating animated videos, and entertaining games.
           </p>
           <div>
           </div>
