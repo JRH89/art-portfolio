@@ -10,13 +10,10 @@ const images = [
     description: "Created with Blender",
   },
   {
-    src: "/images/Interior_1.png",
+    src: "/images/011.png",
     description: "Created with Blender",
   },
-  {
-    src: "/images/003.png",
-    description: "Created with Blender and Unreal Engine",
-  },
+
   {
     src: "/images/KW.png",
     description: "Created with Blender and Unreal Engine",
@@ -48,6 +45,10 @@ const images = [
 ]
 
 const videos = [
+  {
+    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fslowmo_glass-HD.mp4?alt=media&token=6ed113f1-62ba-4173-8601-3bd425d160aa",
+    description: "Created with Blender and ffmpeg",
+  },
   {
     url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2F11-14_2..mp4?alt=media&token=6c62916f-7c3f-4d9c-b920-937882ef3e57",
     description: "Created with Blender, Unreal Engine, and ffmpeg",
