@@ -83,10 +83,10 @@ const games = [
     url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FFireball%20Attack%20and%20Random%20Loot%20Drop.mp4?alt=media&token=ade637ca-7866-4f19-a9b5-3d78b8cad85b",
     description: "Fireball attack particle system and random loot drop from enemy. Unreal Engine 5.",
   },
-  // {
-  //   url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FWeather%20system%20progress.mp4?alt=media&token=a8db830f-0a55-4215-9422-b5d2b7b76773",
-  //   description: "Dynamic weather system featuring rain storms, snow storms, fog, and sfx. Created with Unreal Engine 5.",
-  // },
+  {
+    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FWeather%20system%20progress.mp4?alt=media&token=a8db830f-0a55-4215-9422-b5d2b7b76773",
+    description: "Dynamic weather system featuring rain storms, snow storms, fog, and sfx. Created with Unreal Engine 5.",
+  },
 ]
 
 export default function Home() {
