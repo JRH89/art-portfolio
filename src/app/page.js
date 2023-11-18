@@ -10,7 +10,7 @@ const images = [
     description: "Created with Blender",
   },
   {
-    src: "/images/011.png",
+    src: "/images/Charcuterie-Whiskey-Grapes_9_HD.png",
     description: "Created with Blender",
   },
 
@@ -46,7 +46,7 @@ const images = [
 
 const videos = [
   {
-    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fslowmo_glass-HD.mp4?alt=media&token=6ed113f1-62ba-4173-8601-3bd425d160aa",
+    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FIceDrop_HD.mp4?alt=media&token=6a99bc37-3d5a-4d38-ba80-2f39a49ac3ac",
     description: "Created with Blender and ffmpeg",
   },
   {
