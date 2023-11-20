@@ -10,7 +10,7 @@ const images = [
     description: "Created with Blender",
   },
   {
-    src: "/images/Charcuterie-Whiskey-Grapes_9_HD.png",
+    src: "/images/Charcuterie-Whiskey-Grapes_10_HD.png",
     description: "Created with Blender",
   },
 
