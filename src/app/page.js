@@ -46,7 +46,7 @@ const images = [
 
 const videos = [
   {
-    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2F11-22_5.mp4?alt=media&token=6e25488d-e857-4617-8b73-a1b2db18b0b0",
+    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fslowed_down_video.mp4?alt=media&token=237a945f-63ef-4ccf-bc18-b76e466d1c46s",
     description: "Created with Blender and ffmpeg",
   },
   {
