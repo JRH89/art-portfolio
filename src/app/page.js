@@ -13,7 +13,10 @@ const images = [
     src: "/images/Glass3.png",
     description: "Created with Blender",
   },
-
+  {
+    src: "/images/15.png",
+    description: "Created with Blender",
+  },
   {
     src: "/images/KW.png",
     description: "Created with Blender and Unreal Engine",
