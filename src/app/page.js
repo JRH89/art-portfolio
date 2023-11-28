@@ -25,29 +25,10 @@ const images = [
     src: "/images/KW.png",
     description: "Created with Blender and Unreal Engine",
   },
+
   {
-    src: "/images/008.png",
+    src: "/images/DarkHHSLogoFinal-Gray-HDpng.png",
     description: "Created with Blender",
-  },
-  {
-    src: "/images/009.png",
-    description: "Created with Blender",
-  },
-  {
-    src: "/images/001.png",
-    description: "Created with Blender",
-  },
-  {
-    src: "/images/006.png",
-    description: "Created with Blender and Unreal Engine",
-  },
-  {
-    src: "/images/007.png",
-    description: "Created with Blender and Unreal Engine",
-  },
-  {
-    src: "/images/010.png",
-    description: "Created with Blender and Unreal Engine",
   },
 ]
 
@@ -58,10 +39,6 @@ const videos = [
   },
   {
     url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2F11-14_2..mp4?alt=media&token=6c62916f-7c3f-4d9c-b920-937882ef3e57",
-    description: "Created with Blender, Unreal Engine, and ffmpeg",
-  },
-  {
-    url: "https://firebasestorage.googleapis.com/v0/b/builders-land.appspot.com/o/videos%2F10-24_3.mp4?alt=media&token=baeb9dbf-8849-4f53-8365-cd3f94fd74f4",
     description: "Created with Blender, Unreal Engine, and ffmpeg",
   },
   {
