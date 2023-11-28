@@ -18,6 +18,10 @@ const images = [
     description: "Created with Blender",
   },
   {
+    src: "/images/1.png",
+    description: "Created with Blender",
+  },
+  {
     src: "/images/KW.png",
     description: "Created with Blender and Unreal Engine",
   },
@@ -127,9 +131,9 @@ export default function Home() {
   }
 
   return (
-    <div className="bg-neutral-950 m-1">
+    <div className="bg-neutral-950 m-1 pt-5">
       {/* Hero Section */}
-      <section className="bg-gray-800 rounded-md p-1 text-white pb-5 pt-3 max-w-2xl mx-auto">
+      <section className="bg-neutral-900  rounded-md p-1 text-white pb-5 pt-3 max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold mb-5">Jared Hooker</h1>
           <Image
@@ -175,9 +179,9 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-4 max-w-2xl px-3">
             <Link legacyBehavior href="https://calendly.com/jaredhooker/30min">
-              <a className="bg-cyan-800 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded">Schedule Interview</a>
+              <a className="bg-cyan-700 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded">Schedule Interview</a>
             </Link>
-            <a href="/Game_Resume.pdf" className="bg-cyan-800 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded" download>
+            <a href="/Game_Resume.pdf" className="bg-cyan-700 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded" download>
               Resume
             </a>
           </div>
@@ -185,14 +189,14 @@ export default function Home() {
       </section>
 
       {/* Image Gallery Section */}
-      <section className="py-5 px-2 border-b-2 mt-2 border-neutral-950 bg-gray-800 text-white rounded-t max-w-2xl mx-auto">
+      <section className="py-10 px-2 border-b-2 mt-8  bg-neutral-900  text-white rounded-t max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
           <h2 className="text-2xl font-bold mb-4 underline">Images</h2>
           <div className="flex justify-center mb-5">
-            <button className="bg-cyan-800 w-full hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded mr-2" onClick={previousImage}>
+            <button className="bg-cyan-700 w-full hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mr-2" onClick={previousImage}>
               Previous
             </button>
-            <button className="bg-cyan-800 w-full hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded" onClick={nextImage}>
+            <button className="bg-cyan-700 w-full hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded" onClick={nextImage}>
               Next
             </button>
           </div>
@@ -212,14 +216,14 @@ export default function Home() {
       </section>
 
       {/* Video Gallery Section */}
-      <section className="py-10 px-2 bg-gray-800 text-white border-b-2 border-neutral-950 max-w-2xl mx-auto">
+      <section className="py-10 px-2 bg-neutral-900 text-white border-b-2 border-neutral-950 max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
           <h2 className="text-2xl font-bold mb-4 underline">Animations</h2>
           <div className="flex justify-center">
-            <button className="bg-cyan-800 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded mr-2 w-full" onClick={previousVideo}>
+            <button className="bg-cyan-700 hover:bg-cyan-800 text-white font-bold py-2 px-4 rounded mr-2 w-full" onClick={previousVideo}>
               Previous
             </button>
-            <button className="bg-cyan-800 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded w-full" onClick={nextVideo}>
+            <button className="bg-cyan-700 hover:bg-cyan-800 text-white font-bold py-2 px-4 rounded w-full" onClick={nextVideo}>
               Next
             </button>
           </div>
@@ -234,14 +238,14 @@ export default function Home() {
       </section>
 
       {/* Game Gallery Section */}
-      <section className="py-10 px-2 bg-gray-800 text-white rounded-b max-w-2xl mx-auto">
+      <section className="py-10 px-2 bg-neutral-900 border-t-2 border-white text-white rounded-b max-w-2xl mx-auto">
         <div className="container mx-auto text-center">
           <h2 className="text-2xl font-bold mb-4 underline">Games</h2>
           <div className="flex justify-center">
-            <button className="bg-cyan-800 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded mr-2 w-full" onClick={previousGame}>
+            <button className="bg-cyan-700 hover:bg-cyan-800 text-white font-bold py-2 px-4 rounded mr-2 w-full" onClick={previousGame}>
               Previous
             </button>
-            <button className="bg-cyan-800 hover:bg-cyan-900 text-white font-bold py-2 px-4 rounded w-full" onClick={nextGame}>
+            <button className="bg-cyan-700 hover:bg-cyan-800 text-white font-bold py-2 px-4 rounded w-full" onClick={nextGame}>
               Next
             </button>
           </div>
