@@ -14,7 +14,7 @@ const images = [
     description: "Created with Blender",
   },
   {
-    src: "/images/15.png",
+    src: "/images/21.png",
     description: "Created with Blender",
   },
   {
