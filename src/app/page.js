@@ -30,11 +30,19 @@ const images = [
     src: "/images/DarkHHSLogoFinal-Gray-HDpng.png",
     description: "Created with Blender",
   },
+  {
+    src: "/images/Leather-003.png",
+    description: "Created with Blender",
+  },
 ]
 
 const videos = [
   {
     url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fslowed_down_video.mp4?alt=media&token=237a945f-63ef-4ccf-bc18-b76e466d1c46s",
+    description: "Created with Blender and ffmpeg",
+  },
+  {
+    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FLeather-Slow-3.mp4?alt=media&token=2543f26e-23fd-407f-8e28-77131fea3188",
     description: "Created with Blender and ffmpeg",
   },
   {
