@@ -42,7 +42,7 @@ const videos = [
     description: "Created with Blender and ffmpeg",
   },
   {
-    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FOcean.mp4?alt=media&token=91ba379e-701e-40c2-8c3c-04a3a28b3bb1",
+    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FOceanFinal.mp4?alt=media&token=cf37a22b-8fab-466c-bfc1-64f27743760d",
     description: "Created with Blender and ffmpeg",
   },
   {
