@@ -46,6 +46,10 @@ const videos = [
     description: "Created with Blender and ffmpeg",
   },
   {
+    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FOceanShark-HHS.mp4?alt=media&token=6177101d-2176-495d-89ae-ad7bc8ae45d3",
+    description: "Created with Blender and ffmpeg",
+  },
+  {
     url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FHHS-ChristmasVideo-HD-C.mp4?alt=media&token=6ae10d98-1165-4961-aa72-2911c337681e",
     description: "Created with Blender and ffmpeg",
   },
