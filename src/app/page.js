@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 const images = [
   {
-    src: "/images/10.png",
+    src: "/images/I3-2.png",
     description: "Created with Blender",
   },
   {
