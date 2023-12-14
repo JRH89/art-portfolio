@@ -42,11 +42,15 @@ const images = [
 
 const videos = [
   {
-    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fslowed_down_video.mp4?alt=media&token=237a945f-63ef-4ccf-bc18-b76e466d1c46s",
+    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FOceanShark-HHS.mp4?alt=media&token=6177101d-2176-495d-89ae-ad7bc8ae45d3",
     description: "Created with Blender and ffmpeg",
   },
   {
-    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FOceanShark-HHS.mp4?alt=media&token=6177101d-2176-495d-89ae-ad7bc8ae45d3",
+    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FDiamondRing-Slow-HD.mp4?alt=media&token=94f5d932-304d-4d7b-8dc7-d866c43bf2e4",
+    description: "Created with Blender and ffmpeg",
+  },
+  {
+    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fslowed_down_video.mp4?alt=media&token=237a945f-63ef-4ccf-bc18-b76e466d1c46s",
     description: "Created with Blender and ffmpeg",
   },
   {
@@ -55,10 +59,6 @@ const videos = [
   },
   {
     url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fsapphire-slow-4.mp4?alt=media&token=ea1b2aa5-1e0f-4eb0-bbfb-1df2f0b7ed37",
-    description: "Created with Blender and ffmpeg",
-  },
-  {
-    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FDiamondRing-Slow-HD.mp4?alt=media&token=94f5d932-304d-4d7b-8dc7-d866c43bf2e4",
     description: "Created with Blender and ffmpeg",
   },
   {
