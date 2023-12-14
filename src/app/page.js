@@ -74,10 +74,6 @@ const videos = [
     description: "Created with Blender, Unreal Engine, and ffmpeg",
   },
   {
-    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2FChristmasVideo-Final.mp4?alt=media&token=8c8da06a-907a-46b1-941b-74a379808326",
-    description: "Created with Blender, Unreal Engine, and ffmpeg",
-  },
-  {
     url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2F10-9_2..mp4?alt=media&token=6f98b494-703e-4e69-9d04-0c4e9a34120d",
     description: "Created with Blender, Unreal Engine, and ffmpeg",
   },
