@@ -58,7 +58,7 @@ const videos = [
     description: "Created with Blender and ffmpeg",
   },
   {
-    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fcheeseburger-slow2.mp4?alt=media&token=e8d1f870-be07-4f13-a8ab-3e016af7e48b",
+    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fcheeseburger-slow.mp4?alt=media&token=224b7fca-b938-4fec-919f-ebd93b5a228f",
     description: "Created with Blender and ffmpeg",
   },
   {
