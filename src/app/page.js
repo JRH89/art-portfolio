@@ -78,7 +78,7 @@ const videos = [
     description: "Created with Blender and ffmpeg",
   },
   {
-    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fice-drop.mp4?alt=media&token=fe04e85d-6153-4fc5-a9cc-4b4f7ab90280https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fice-drop.mp4?alt=media&token=fe04e85d-6153-4fc5-a9cc-4b4f7ab90280",
+    url: "https://firebasestorage.googleapis.com/v0/b/hookerhillstu.appspot.com/o/videos%2Fice-drop2.mp4?alt=media&token=d8bfbce4-f078-4ae2-9808-9ed6521b162c",
     description: "Created with Blender and ffmpeg",
   },
   {
