@@ -58,7 +58,6 @@ export default function Home() {
   // state variables
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0)
-  const [currentGameIndex, setCurrentGameIndex] = useState(0)
 
   // Image button handlers
   const previousImage = () => {
@@ -113,10 +112,10 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-4 max-w-2xl px-3">
             <Link legacyBehavior href="https://calendly.com/jaredhooker/30min">
-              <a className="bg-cyan-700 hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded">Schedule Interview</a>
+              <a className="bg-cyan-700 hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded">Schedule Consultation</a>
             </Link>
-            <a href="/Game_Resume.pdf" className="bg-cyan-700 hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded" download>
-              Resume
+            <a href="https://www.hookerhillstudios.com/arcvizquote" className="bg-cyan-700 hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded" download>
+              Get a Quote
             </a>
           </div>
         </div>
