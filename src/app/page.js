@@ -6,31 +6,39 @@ import { useState } from 'react'
 
 const images = [
   {
-    src: "/Sample/A1.png",
+    src: "/Sample/1A.png",
     description: "Created with Blender",
   },
   {
-    src: "/Sample/A2.png",
+    src: "/Sample/1B.png",
     description: "Created with Blender",
   },
   {
-    src: "/Sample/A3.png",
+    src: "/Sample/1B-Rear.png",
     description: "Created with Blender",
   },
   {
-    src: "/Sample/A4.png",
+    src: "/Sample/2A.png",
     description: "Created with Blender",
   },
   {
-    src: "/Sample/B1.png",
+    src: "/Sample/2B.png",
     description: "Created with Blender",
   },
   {
-    src: "/Sample/C1.png",
+    src: "/Sample/2B-Rear.png",
     description: "Created with Blender",
   },
   {
-    src: "/Sample/D1.png",
+    src: "/Sample/3A.png",
+    description: "Created with Blender",
+  },
+  {
+    src: "/Sample/3B.png",
+    description: "Created with Blender",
+  },
+  {
+    src: "/Sample/I3.png",
     description: "Created with Blender",
   },
   {
