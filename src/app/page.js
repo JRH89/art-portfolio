@@ -88,7 +88,7 @@ export default function Home() {
   return (
     <div className="bg-neutral-950 m-1 pt-5">
       {/*Section 1 */}
-      <section className="bg-neutral-900 rounded-md p-1 border border-neutral-200 text-neutral-200 pb-5 pt-3 max-w-2xl mx-auto">
+      <section className="bg-neutral-900 rounded-md p-1 border border-neutral-200 text-neutral-200 pb-5  justify-center w-full  pt-3 max-w-4xl mx-auto">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold mb-5">Jared Hooker</h1>
           <Image
@@ -100,7 +100,7 @@ export default function Home() {
             src={"/profilepic.png"}
           />
           <p className="text-md mb-4 mx-3 text-justify">
-            I leverage my expertise with Blender to seamlessly convert floorplans and blueprints into sophisticated 3D models. Employing a meticulous approach, I ensure the development of lifelike environments characterized by precise lighting, intricate textures, and well-thought-out spatial arrangements. My portfolio serves as a testament to my unwavering dedication to excellence, with each project showcasing a blend of technical proficiency and a keen aesthetic sense. Through the seamless integration of these elements, I consistently deliver visually captivating representations that not only meet but exceed client expectations.
+            Employing a meticulous approach, I ensure the development of lifelike environments characterized by precise lighting, intricate textures, and well-thought-out spatial arrangements. My portfolio serves as a testament to my unwavering dedication to excellence, with each project showcasing a blend of technical proficiency and a keen aesthetic sense.
           </p>
           <div>
           </div>
@@ -118,7 +118,7 @@ export default function Home() {
               </tr>
             </table>
           </div>
-          <div className="flex flex-col gap-4 max-w-2xl px-3">
+          <div className="flex flex-col gap-4 mx-auto max-w-4xl px-3">
             <Link legacyBehavior href="https://calendly.com/jaredhooker/30min">
               <a className="bg-cyan-700 hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded">Schedule Consultation</a>
             </Link>
@@ -130,17 +130,10 @@ export default function Home() {
       </section>
 
       {/* Section 2 */}
-      <section className="py-10 px-2  mt-8 border-neutral-200 border  bg-neutral-900  text-neutral-200 rounded mb-8 max-w-2xl mx-auto">
+      <section className="py-4 px-2  mt-8 border-neutral-200 border  bg-neutral-900 text-neutral-200 rounded mb-8 max-w-4xl mx-auto">
         <div className="container mx-auto text-center">
           <h2 className="text-2xl font-bold mb-4 underline">Images</h2>
-          <div className="flex justify-center mb-5">
-            <button className="bg-cyan-700 w-full hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded mr-2" onClick={previousImage}>
-              Previous
-            </button>
-            <button className="bg-cyan-700 w-full hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded" onClick={nextImage}>
-              Next
-            </button>
-          </div>
+
           <div className="">
             <Image
               preload="true"
@@ -149,17 +142,33 @@ export default function Home() {
               height={1080}
               src={images[currentImageIndex].src}
               alt={`Image ${currentImageIndex + 1}`}
-              className="w-full max-w-2xl mx-auto rounded-md"
+              className="w-full max-w-4xl mx-auto rounded-md"
             />
           </div>
           <p className="text-sm my-4">{images[currentImageIndex].description}</p>
+          <div className="flex justify-center mb-5">
+            <button className="bg-cyan-700 w-full hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded mr-2" onClick={previousImage}>
+              Previous
+            </button>
+            <button className="bg-cyan-700 w-full hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded" onClick={nextImage}>
+              Next
+            </button>
+          </div>
         </div>
       </section>
 
       {/* Section */}
-      <section className="py-10 rounded px-2 bg-neutral-900 border-neutral-200 border text-neutral-200 max-w-2xl mx-auto">
+      <section className="py-4 rounded px-2 bg-neutral-900 border-neutral-200 border text-neutral-200 max-w-4xl mx-auto">
         <div className="container mx-auto text-center">
           <h2 className="text-2xl font-bold mb-4 underline">Animations</h2>
+
+          <div className="my-4">
+            <video key={currentVideoIndex} preload="metadata" width={1920} height={1080} controls className="rounded-md w-full max-w-4xl mx-auto">
+              <source src={videos[currentVideoIndex].url} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p className="text-sm my-4">{videos[currentVideoIndex].description}</p>
           <div className="flex justify-center">
             <button className="bg-cyan-700 hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded mr-2 w-full" onClick={previousVideo}>
               Previous
@@ -168,13 +177,6 @@ export default function Home() {
               Next
             </button>
           </div>
-          <div className="my-4">
-            <video key={currentVideoIndex} preload="metadata" width={1920} height={1080} controls className="rounded-md w-full max-w-2xl mx-auto">
-              <source src={videos[currentVideoIndex].url} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <p className="text-sm my-4">{videos[currentVideoIndex].description}</p>
         </div>
       </section>
 
