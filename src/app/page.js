@@ -41,6 +41,7 @@ const images = [
     src: "/Sample/I3.png",
     description: "Created with Blender",
   },
+
   {
     src: "/Sample/I1.png",
     description: "Created with Blender",
@@ -52,6 +53,10 @@ const images = [
 ]
 
 const videos = [
+  {
+    url: "/Sample/360.mp4",
+    description: "Created with Blender and ffmpeg",
+  },
   {
     url: "/Sample/V1.mp4",
     description: "Created with Blender and ffmpeg",
@@ -120,7 +125,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-4 mx-auto max-w-4xl px-3">
             <Link legacyBehavior href="https://calendly.com/jaredhooker/30min">
-              <a className="bg-cyan-700 hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded">Schedule Consultation</a>
+              <a className="bg-cyan-700 hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded">Schedule Interview</a>
             </Link>
             <a href="https://www.hookerhillstudios.com/arcvizquote" className="bg-cyan-700 hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded" download>
               Get a Quote
