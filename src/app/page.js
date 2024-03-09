@@ -54,7 +54,11 @@ const images = [
 
 const videos = [
   {
-    url: "/Sample/360.mp4",
+    url: "/Sample/360-2A.mp4",
+    description: "Created with Blender and ffmpeg",
+  },
+  {
+    url: "/Sample/360-1A.mp4",
     description: "Created with Blender and ffmpeg",
   },
   {
