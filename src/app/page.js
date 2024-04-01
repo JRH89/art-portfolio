@@ -131,7 +131,7 @@ export default function Home() {
             <Link legacyBehavior href="https://calendly.com/jaredhooker/30min">
               <a className="bg-cyan-700 hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded">Schedule Interview</a>
             </Link>
-            <a href="https://www.hookerhillstudios.com/arcvizquote" className="bg-cyan-700 hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded" download>
+            <a href="https://www.hookerhillstudios.com/Quote" className="bg-cyan-700 hover:bg-cyan-800 text-neutral-200 font-bold py-2 px-4 rounded" download>
               Get a Quote
             </a>
           </div>
